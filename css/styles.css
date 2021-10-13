@@ -1,0 +1,309 @@
+/*
+Raleway 700 normal
+Roboto 400 normal
+Roboto 500 normal
+Roboto 700 normal
+Roboto 900 normal
+*/
+:root {
+        --color-ffffff: #ffffff;
+        --color-2196f3: #2196f3;
+        --color-212121: #212121;
+        --color-757575: #757575;
+        --color-2f303a: #2f303a;
+        --color-e5e5e5: #e5e5e5;
+        --color-f5f4fa: #f5f4fa;
+        --color-rgba-255-255-255-06: rgba(255, 255, 255, 0.6);
+}
+/*body-overal-styles*/
+body {
+        background-color: var(--color-ffffff);
+        color: var(--color-757575);
+        font-family: "Roboto", sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+}
+a {
+        text-decoration: none;
+}
+
+ul {
+        list-style-type: none;
+}
+.button {
+        cursor: pointer;
+}
+
+/*header-styles*/
+
+/*logo-styles-section*/
+.logo-part-web {
+        color: var(--color-2196f3);
+}
+.full-logo {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--color-212121);
+}
+/*logo-styles-section*/
+
+/*section-of-navigation-styles*/
+.nav-link {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--color-212121);
+}
+.nav-link:hover {
+        color: var(--color-2196f3);
+}
+
+/*section-of-navigation-styles*/
+
+/*section-of-navigation-styles*/
+.header-contacts a {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
+        color: var(--color-757575);
+}
+.header-contacts a:hover {
+        color: var(--color-2196f3);
+}
+
+/*makes link and button an active on needed page */
+.now-on {
+        color: var(--color-2196f3);
+}
+/*makes link and button an active on needed page */
+
+/*section-of-navigation-styles*/
+
+/*
+.nav-link, .header-contacts a {color: var(--nav-link-color); }
+a[href="./index.html"]:hover, 
+a[href="./portfolio.html"]:hover,
+a[href="#contacts-footer"]:hover,
+a[href="mailto:info@devstudio.com"]:hover,
+a[href="tel:+380961111111"]:hover
+{color: var(--hover-color);background-color: var(--hover-color);}
+
+a[href="./index.html"]:focus, 
+a[href="./portfolio.html"]:focus,
+a[href="#contacts-footer"]:focus,
+a[href="mailto:info@devstudio.com"]:focus,
+a[href="tel:+380961111111"]:focus
+ {color:var(--focus-color);}*/
+
+/*hero-section*/
+.hero-section {
+        background-color: var(--color-2f303a);
+}
+.hero-title {
+        text-align: center;
+        color: var(--color-ffffff);
+        text-transform: uppercase;
+        font-weight: 900;
+        font-size: 44px;
+        line-height: 1.36;
+        letter-spacing: 0.06em;
+}
+
+.hero-button {
+        color: var(--color-ffffff);
+        background-color: var(--color-2196f3);
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 1.87;
+        text-align: center;
+        letter-spacing: 0.06em;
+}
+
+.hero-button:hover {
+        color: var(--color-2196f3);
+        background: var(--color-ffffff);
+}
+
+/*our-goals-styling*/
+/*hided-h2*/
+.our-goals-section h2 {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+/*hided-h2*/
+
+.our-goals-section {
+        background-color: var(--color-ffffff);
+}
+.our-goals-section h3 {
+        font-size: 14px;
+        text-transform: uppercase;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
+        color: var(--color-212121);
+}
+
+.our-goals-section p {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.5;
+        letter-spacing: 0.03em;
+        color: var(--color-757575);
+}
+
+/*our-goals-styling*/
+
+/*what-we-are-doing-styling*/
+.what-we-are-doing {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--color-212121);
+}
+/*what-we-are-doing-styling*/
+
+/*our-team-styling*/
+.our-team {
+        background-color: var(--color-f5f4fa);
+}
+.our-team h2 {
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
+        color: var(--color-212121);
+}
+
+.our-team h3 {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--color-212121);
+}
+
+.our-team p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        color: var(--color-757575);
+}
+/*our-team-styling*/
+
+/*footer-section-styling*/
+/*logo-footer-styles*/
+.logo-part-web {
+        color: var(--color-2196f3);
+}
+.full-logo-footer {
+        font-family: "Raleway", sans-serif;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        letter-spacing: 0.03;
+        text-align: left;
+        color: var(--color-ffffff);
+}
+/*logo-footer-styles*/
+
+.footer-section {
+        background-color: var(--color-2f303a);
+}
+
+.direction-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        font-style: normal;
+        color: var(--color-ffffff);
+}
+
+.footer-adress-list .mail-link,
+.footer-adress-list .call-link {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 1.71;
+        font-style: normal;
+        color: var(--color-rgba-255-255-255-06);
+}
+
+.footer-adress-list a:hover {
+        color: var(--color-2196f3);
+}
+/*footer-section-styling*/
+
+/*portfolio-main-section-styling*/
+/*hided-h2*/
+.portfolio h2 {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
+/*hided-h2*/
+
+.portfolio .button {
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.62;
+        font-style: normal;
+        letter-spacing: 00.03em;
+        color: var(--color-212121);
+        background-color: var(--color-f5f4fa);
+}
+.portfolio .button:hover {
+        color: var(--color-ffffff);
+        background-color: var(--color-2196f3);
+}
+
+/*makes link and button an active on needed page */
+.portfolio .now-on {
+        color: var(--color-2196f3);
+}
+.portfolio .all {
+        background-color: var(--color-2196f3);
+        color: var(--color-ffffff);
+}
+
+/*makes link and button an active on needed page */
+
+.portfolio h3 {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 2;
+        letter-spacing: 0.06em;
+        color: var(--color-212121);
+}
+
+.portfolio p {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.87;
+        letter-spacing: 0.03em;
+        color: var(--color-757575);
+}
+/*portfolio-main-section-styling*/
