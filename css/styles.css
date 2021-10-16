@@ -28,15 +28,28 @@ a {
 }
 
 ul {
-        list-style-type: none;
+        list-style: none;
+        margin: 0px;
+        padding: 0px;
 }
+
 .button {
         cursor: pointer;
+}
+
+.header-container {
+        width: 1200px;
+        display: flex;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+        align-items: center;
 }
 
 /*header-styles*/
 
 /*logo-styles-section*/
+
 .logo-part-web {
         color: var(--color-2196f3);
 }
@@ -46,8 +59,12 @@ ul {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        text-align: left;
+        text-align: center;
         color: var(--color-212121);
+        display: block;
+        padding-top: 24px;
+        padding-bottom: 25px;
+        margin-right: 93px;
 }
 /*logo-styles-section*/
 
@@ -63,9 +80,37 @@ ul {
         color: var(--color-2196f3);
 }
 
+.nav-item,
+.contact-item {
+        display: block;
+        padding-top: 32px;
+        padding-bottom: 32px;
+        margin-right: 50px;
+}
+
+.nav-container {
+        display: flex;
+}
+
+.nav-item:last-child,
+.contact-item:last-child {
+        margin-right: 0;
+}
+
+.header-nav-list {
+        display: flex;
+        text-align: center;
+        margin-right: 331px;
+}
+
 /*section-of-navigation-styles*/
 
 /*section-of-navigation-styles*/
+
+.header-contacts {
+        display: flex;
+}
+
 .header-contacts a {
         font-weight: 500;
         font-size: 14px;
@@ -113,6 +158,8 @@ a[href="tel:+380961111111"]:focus
         font-size: 44px;
         line-height: 1.36;
         letter-spacing: 0.06em;
+        margin-top: 0;
+        margin-bottom: 30px;
 }
 
 .hero-button {
@@ -123,11 +170,23 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.87;
         text-align: center;
         letter-spacing: 0.06em;
+        width: 200px;
+        height: 50px;
+        border-radius: 4px;
+        border: none;
 }
 
-.hero-button:hover {
+.hero-button:hover,
+.hero-button:focus {
         color: var(--color-2196f3);
         background: var(--color-ffffff);
+}
+
+.hero-section {
+        padding-top: 200px;
+        padding-bottom: 200px;
+        text-align: center;
+        display: block;
 }
 
 /*our-goals-styling*/
