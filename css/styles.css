@@ -37,13 +37,17 @@ ul {
         cursor: pointer;
 }
 
-.header-container {
+.container {
         width: 1200px;
-        display: flex;
-        text-align: center;
         margin-left: auto;
         margin-right: auto;
-        align-items: center;
+        padding-left: 15px;
+        padding-right: 15px;
+}
+
+.header-container {
+        display: flex;
+        justify-content: space-between;
 }
 
 /*header-styles*/
@@ -59,11 +63,8 @@ ul {
         font-size: 26px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-        text-align: center;
         color: var(--color-212121);
         display: block;
-        padding-top: 24px;
-        padding-bottom: 25px;
         margin-right: 93px;
 }
 /*logo-styles-section*/
@@ -80,27 +81,29 @@ ul {
         color: var(--color-2196f3);
 }
 
-.nav-item,
-.contact-item {
-        display: block;
+.nav-link,
+.contact-item-link {
         padding-top: 32px;
         padding-bottom: 32px;
+}
+
+.nav-item,
+.contact-item {
         margin-right: 50px;
 }
 
 .nav-container {
         display: flex;
+        align-items: center;
 }
 
 .nav-item:last-child,
 .contact-item:last-child {
         margin-right: 0;
 }
-
 .header-nav-list {
         display: flex;
         text-align: center;
-        margin-right: 331px;
 }
 
 /*section-of-navigation-styles*/
@@ -109,6 +112,7 @@ ul {
 
 .header-contacts {
         display: flex;
+        align-items: center;
 }
 
 .header-contacts a {
