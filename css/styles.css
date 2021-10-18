@@ -180,6 +180,7 @@ a[href="tel:+380961111111"]:focus
         height: 50px;
         border-radius: 4px;
         border: none;
+        cursor: pointer;
 }
 
 .hero-button:hover,
@@ -242,7 +243,7 @@ a[href="tel:+380961111111"]:focus
 }
 
 .our-goals-item {
-        flex-basis: calc((100% - 30px) / 4);
+        flex-basis: calc((100% - 4 * 30px) / 4);
         margin-top: 30px;
         margin-left: 30px;
 }
@@ -250,6 +251,9 @@ a[href="tel:+380961111111"]:focus
 /*our-goals-styling*/
 
 /*what-we-are-doing-styling*/
+.what-we-are-doing-section {
+        padding-bottom: 94px;
+}
 .what-we-are-doing {
         font-weight: 700;
         font-size: 36px;
@@ -274,6 +278,7 @@ a[href="tel:+380961111111"]:focus
 /*our-team-styling*/
 .our-team {
         background-color: var(--color-f5f4fa);
+        padding-bottom: 94px;
 }
 .our-team h2 {
         font-weight: 700;
@@ -293,6 +298,8 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--color-212121);
+        margin-top: 0px;
+        margin-bottom: 10px;
 }
 
 .our-team p {
@@ -301,6 +308,8 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--color-757575);
+        margin-top: 0px;
+        margin-bottom: 30px;
 }
 
 .our-team-list {
@@ -313,9 +322,13 @@ a[href="tel:+380961111111"]:focus
 .our-team-item {
         margin-left: 30px;
         margin-top: 30px;
-        flex-basis: calc((100% - 30px) / 4);
+        flex-basis: calc((100% - 4 * 30px) / 4);
         background-color: #ffffff;
         text-align: center;
+        border-radius: 0px 0px 4px 4px;
+}
+.our-team-item img {
+        margin-bottom: 30px;
 }
 
 /*our-team-styling*/
@@ -355,6 +368,7 @@ a[href="tel:+380961111111"]:focus
         font-size: 14px;
         line-height: 1.71;
         font-style: normal;
+        letter-spacing: 0.03em;
         color: var(--color-rgba-255-255-255-06);
 }
 
@@ -396,16 +410,28 @@ a[href="tel:+380961111111"]:focus
 }
 /*hided-h2*/
 
-.portfolio .button {
+.button {
         font-weight: 500;
         font-size: 16px;
         line-height: 1.62;
         font-style: normal;
-        letter-spacing: 00.03em;
+        letter-spacing: 0.03em;
         color: var(--color-212121);
         background-color: var(--color-f5f4fa);
+        width: auto;
+        height: 38px;
+        text-align: center;
+        border: none;
+        border-radius: 4px;
+        padding-right: 22px;
+        padding-left: 22px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        cursor: pointer;
 }
-.portfolio .button:hover {
+
+.button:hover,
+.button:focus {
         color: var(--color-ffffff);
         background-color: var(--color-2196f3);
 }
@@ -418,17 +444,12 @@ a[href="tel:+380961111111"]:focus
 
 .portfolio-button:not(:last-child) {
         margin-right: 8px;
-        background-color: #f5f4fa;
 }
 
 .portfolio-list a {
         display: block;
 }
 
-.button {
-        border-radius: 4px;
-        outline: none;
-}
 .portfolio-container {
         padding-top: 94px;
         padding-bottom: 94px;
