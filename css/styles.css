@@ -466,8 +466,13 @@ a[href="tel:+380961111111"]:focus
 .portfolio-item {
         margin-left: 30px;
         margin-top: 30px;
-        background-color: #ffffff;
-        outline: 1px solid #eeeeee;
+}
+
+.portfolio-text {
+        padding: 20px 24px 20px 24px;
+        border-bottom: 1px solid #eeeeee;
+        border-left: 1px solid #eeeeee;
+        border-right: 1px solid #eeeeee;
 }
 
 /*makes link and button an active on needed page */
@@ -487,7 +492,6 @@ a[href="tel:+380961111111"]:focus
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--color-212121);
-        margin-left: 24px;
 }
 
 .portfolio p {
@@ -496,6 +500,5 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--color-757575);
-        margin-left: 24px;
 }
 /*portfolio-main-section-styling*/
