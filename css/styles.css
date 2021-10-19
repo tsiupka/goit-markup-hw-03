@@ -27,6 +27,12 @@ a {
         text-decoration: none;
 }
 
+img {
+        display: block;
+        max-width: 100%;
+        height: auto;
+}
+
 ul {
         list-style: none;
         margin: 0px;
@@ -52,6 +58,9 @@ ul {
 }
 
 /*header-styles*/
+.header-page {
+        border-bottom: 1px solid #ececec;
+}
 
 /*logo-styles-section*/
 
@@ -157,7 +166,6 @@ a[href="tel:+380961111111"]:focus
         background-color: var(--color-2f303a);
 }
 .hero-title {
-        text-align: center;
         color: var(--color-ffffff);
         text-transform: uppercase;
         font-weight: 900;
@@ -166,6 +174,9 @@ a[href="tel:+380961111111"]:focus
         letter-spacing: 0.06em;
         margin-top: 0;
         margin-bottom: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 696px;
 }
 
 .hero-button {
@@ -224,6 +235,7 @@ a[href="tel:+380961111111"]:focus
         letter-spacing: 0.03em;
         color: var(--color-212121);
         margin-bottom: 10px;
+        margin-top: 0px;
 }
 
 .our-goals-section p {
@@ -232,6 +244,8 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.5;
         letter-spacing: 0.03em;
         color: var(--color-757575);
+        margin-top: 0px;
+        margin-bottom: 0px;
 }
 
 .our-goals-list {
@@ -265,9 +279,12 @@ a[href="tel:+380961111111"]:focus
         text-align: center;
 }
 
+.sample-image:not(:last-child) {
+        margin-right: 30px;
+}
+
 .what-we-are-doig-list {
         display: flex;
-        justify-content: space-between;
 }
 
 .what-we-are-doig-list img {
@@ -279,6 +296,7 @@ a[href="tel:+380961111111"]:focus
 .our-team {
         background-color: var(--color-f5f4fa);
         padding-bottom: 94px;
+        padding-top: 94px;
 }
 .our-team h2 {
         font-weight: 700;
@@ -288,7 +306,6 @@ a[href="tel:+380961111111"]:focus
         color: var(--color-212121);
         margin-bottom: 50px;
         margin-top: 0px;
-        padding-top: 94px;
         text-align: center;
 }
 
@@ -308,8 +325,12 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.19;
         letter-spacing: 0.03em;
         color: var(--color-757575);
-        margin-top: 0px;
-        margin-bottom: 30px;
+        margin: 0px;
+}
+
+.teammate-sign {
+        padding: 30px;
+        text-align: center;
 }
 
 .our-team-list {
@@ -326,9 +347,6 @@ a[href="tel:+380961111111"]:focus
         background-color: #ffffff;
         text-align: center;
         border-radius: 0px 0px 4px 4px;
-}
-.our-team-item img {
-        margin-bottom: 30px;
 }
 
 /*our-team-styling*/
@@ -450,7 +468,7 @@ a[href="tel:+380961111111"]:focus
         display: block;
 }
 
-.portfolio-container {
+.portfolio {
         padding-top: 94px;
         padding-bottom: 94px;
 }
@@ -460,12 +478,12 @@ a[href="tel:+380961111111"]:focus
         flex-wrap: wrap;
         margin-left: -30px;
         margin-top: -30px;
-        flex-basis: calc((100% - 30px) / 3);
 }
 
 .portfolio-item {
         margin-left: 30px;
         margin-top: 30px;
+        flex-basis: calc((100% - 3 * 30px) / 3);
 }
 
 .portfolio-text {
