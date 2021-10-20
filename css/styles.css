@@ -510,6 +510,8 @@ a[href="tel:+380961111111"]:focus
         line-height: 2;
         letter-spacing: 0.06em;
         color: var(--color-212121);
+        margin-top: 0px;
+        margin-bottom: 4px;
 }
 
 .portfolio p {
@@ -518,5 +520,6 @@ a[href="tel:+380961111111"]:focus
         line-height: 1.87;
         letter-spacing: 0.03em;
         color: var(--color-757575);
+        margin: 0px;
 }
 /*portfolio-main-section-styling*/
